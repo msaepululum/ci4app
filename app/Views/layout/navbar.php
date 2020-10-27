@@ -23,7 +23,11 @@
                 <li class="nav-item">
                     <a class="nav-link" href="<?= base_url('/orang'); ?>">orang</a>
                 </li>
-
+                <?php if (logged_in()) : ?>
+                    <a class="nav-link" href="<?= base_url('/logout'); ?>">Logout</a>
+                <?php else : ?>
+                    <a class="nav-link" href="<?= base_url('/login'); ?>">login</a>
+                <?php endif ?>
             </ul>
             <form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
