@@ -11,6 +11,9 @@
     <!-- link css -->
 
     <link rel="stylesheet" href="/css/style.css">
+    <!-- my font -->
+    <link href="https://fonts.googleapis.com/css2?family=Viga&display=swap" rel="stylesheet">
+    <!-- end font -->
     <title><?= $title; ?></title>
 </head>
 
