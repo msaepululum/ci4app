@@ -32,16 +32,52 @@
   </div>
   <!-- working space -->
   <div class="row workigspace">
-    <div class="col">
-      <img src="/img/workspace.jpg" alt="workspace" class="img-fluid">
+    <div class="col-lg-6">
+      <img src="/img/merahcorak.jpeg" alt="workspace" class="img-fluid">
     </div>
-    <div class="col">
-      <h4>You </h4>
+    <div class="col-lg-5">
+      <h3>Explore <span>Modern</span> <span>Elegant</span> Design </h3>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, in.</p>
       <a href="" class="btn btn-primary tombol">Gallery</a>
     </div>
   </div>
   <!-- end working space -->
+
+  <!-- testimoni -->
+  <section class="testimonial">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <h5> "Kualitas barang bagus, tidak mudah kusut, tegak, sangat menyenangkan, penjual ramah."</h5>
+      </div>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col-lg-6 justify-content-center d-flex">
+        <figure class="figure">
+          <img src="/img/testi/testi2.jpg" class="figure-img  rounded-circle" alt="Testimoni 1">
+          <figcaption class="figure-caption">
+            <h5>Riri</h5>
+            <p>Hard Worker</p>
+          </figcaption>
+        </figure>
+        <figure class="figure">
+          <img src="/img/testi/testi3.jpg" class="figure-img  rounded-circle utama" alt="Testimoni 1">
+          <figcaption class="figure-caption">
+            <h5>Riri</h5>
+            <p>Hard Worker</p>
+          </figcaption>
+        </figure>
+        <figure class="figure">
+          <img src="/img/testi/testi2.jpg" class="figure-img  rounded-circle" alt="Testimoni 1">
+          <figcaption class="figure-caption">
+            <h5>Riri</h5>
+            <p>Hard Worker</p>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+  <!-- akhir testimoni  -->
 </div>
 
 <?= $this->endSection(); ?>
