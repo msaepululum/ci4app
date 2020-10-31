@@ -56,8 +56,8 @@
         <figure class="figure">
           <img src="/img/testi/testi2.jpg" class="figure-img  rounded-circle" alt="Testimoni 1">
           <figcaption class="figure-caption">
-            <h5>Riri</h5>
-            <p>Hard Worker</p>
+            <h5></h5>
+            <p></p>
           </figcaption>
         </figure>
         <figure class="figure">
@@ -70,14 +70,21 @@
         <figure class="figure">
           <img src="/img/testi/testi2.jpg" class="figure-img  rounded-circle" alt="Testimoni 1">
           <figcaption class="figure-caption">
-            <h5>Riri</h5>
-            <p>Hard Worker</p>
+            <h5></h5>
+            <p></p>
           </figcaption>
         </figure>
       </div>
     </div>
   </section>
   <!-- akhir testimoni  -->
+
+  <!-- footer -->
+  <div class="row footer">
+    <div class="col text-center">
+      <p> <?= date('Y'); ?> All Rights Reserved By M Saepul Ulum.</p>
+    </div>
+  </div>
 </div>
 
 <?= $this->endSection(); ?>
